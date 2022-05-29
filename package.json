@@ -1,0 +1,37 @@
+{
+  "name": "lit-boilerplate",
+  "version": "1.0.0",
+  "description": "boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "watch": "webpack-dev-server --hot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjgammon/lit-boilerplate.git"
+  },
+  "author": "cjgammon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjgammon/lit-boilerplate/issues"
+  },
+  "homepage": "https://github.com/cjgammon/lit-boilerplate#readme",
+  "dependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "lit": "^2.2.5",
+    "lit-css-loader": "^2.0.0",
+    "sass": "^1.52.1",
+    "sass-loader": "^13.0.0",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.7.2",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  }
+}
